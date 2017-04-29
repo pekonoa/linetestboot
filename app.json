@@ -1,0 +1,19 @@
+{
+  "name": "PHP LineBot Test",
+  "description": "linebot tiny starter kit written in PHP.",
+  "repository": "https://github.com/CoachUnited/linebot-test.git",
+  "addons": [
+    "fixie:tricycle"
+  ],
+  "env": {
+    "LINE_CHANNEL_ID": {
+      "description": "LINE Channel ID (LINE Bot Channel Dashboard で確認できます)"
+    },
+    "LINE_CHANNEL_SECRET": {
+      "description": "LINE Channel Secret (LINE Bot Channel Dashboard で確認できます)"
+    },
+    "LINE_CHANNEL_MID": {
+      "description": "MID (LINE Bot Channel Dashboard で確認できます)"
+    }
+  }
+}
